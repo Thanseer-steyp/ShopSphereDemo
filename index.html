@@ -30,6 +30,9 @@
       .about-left {
         width: 25%;
       }
+      .sector-items:hover {
+        transform: translateY(-5px);
+      }
 
       @media (max-width: 992px) {
         .navbar {
@@ -39,11 +42,11 @@
           border-radius: 0;
         }
         .about-right {
-        width: 100%;
-      }
-      .about-left {
-        width: 100%;
-      }
+          width: 100%;
+        }
+        .about-left {
+          width: 100%;
+        }
       }
     </style>
   </head>
@@ -267,7 +270,7 @@
       <h2 class="text-center">Built For Every Industry</h2>
 
       <div class="row g-4 mt-4">
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4 sector-items">
           <div
             class="d-flex flex-column align-items-center justify-content-center h-100 text-center p-4 rounded-4"
             style="background-color: #9464ee"
@@ -313,7 +316,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4 sector-items">
           <div
             class="d-flex flex-column align-items-center justify-content-center h-100 text-center p-4 rounded-4"
             style="background-color: #9464ee"
@@ -335,7 +338,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4 sector-items">
           <div
             class="d-flex flex-column align-items-center justify-content-center h-100 text-center p-4 rounded-4"
             style="background-color: #9464ee"
@@ -373,7 +376,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4 sector-items">
           <div
             class="d-flex flex-column align-items-center justify-content-center h-100 text-center p-4 rounded-4"
             style="background-color: #9464ee"
@@ -399,7 +402,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4 sector-items">
           <div
             class="d-flex flex-column align-items-center justify-content-center h-100 text-center p-4 rounded-4"
             style="background-color: #9464ee"
@@ -441,7 +444,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-6 col-md-4">
+        <div class="col-12 col-sm-6 col-md-4 sector-items">
           <div
             class="d-flex flex-column align-items-center justify-content-center h-100 text-center p-4 rounded-4"
             style="background-color: #9464ee"
@@ -468,7 +471,9 @@
     </section>
 
     <footer class="shadow-lg pt-4 pb-4">
-      <div class="d-flex container justify-content-between flex-column flex-lg-row">
+      <div
+        class="d-flex container justify-content-between flex-column flex-lg-row"
+      >
         <p class="mb-0 text-center text-lg-left">
           Copyrights © 2025 Shopspshere. All rights reserved by Digital
           Marketing Company
@@ -477,12 +482,14 @@
           <a href="" style="text-decoration: none" class="fw-bold me-3"
             >Terms & Conditions
           </a>
-          <a href="" style="text-decoration: none" class="fw-bold"
-            > Privacy Policy</a
+          <a href="" style="text-decoration: none" class="fw-bold">
+            Privacy Policy</a
           >
         </div>
       </div>
     </footer>
+
+    <script src="js/script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
